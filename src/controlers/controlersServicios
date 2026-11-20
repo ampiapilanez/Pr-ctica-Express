@@ -1,0 +1,7 @@
+export const getAllServicios = (req, res) => {
+    res.send('Listado de servicios');
+};
+
+export const getAllSProductos = (req, res) => {
+    res.send('Listado de productos');
+};

@@ -1,0 +1,12 @@
+import express from 'express';
+//se importa el expresss para su uso 
+
+
+const routerProductos = express.Router();
+
+
+
+routerProductos.get('/productos', productos);
+
+//lo que hay que exponer
+export default router;
